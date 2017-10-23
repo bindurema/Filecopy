@@ -1,0 +1,7 @@
+---
+- hosts: webserver
+  tasks:
+    - name: Print date
+      command: date
+    - name: Print message
+      debug: msg="Hello !!!iii"
